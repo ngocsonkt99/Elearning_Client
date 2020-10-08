@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/start_blue"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/silver"
+            android:padding="10dp"
+            android:text="@string/set_lesson"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"/>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/silver"
+            android:padding="10dp"
+            android:text="@string/set_color"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/silver"
+            android:padding="10dp"
+            android:text="@string/set_translucent"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/silver"
+            android:padding="10dp"
+            android:text="@string/set_gradient"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/silver"
+            android:padding="10dp"
+            android:text="@string/use_in_fragment"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/silver"
+            android:padding="10dp"
+            android:text="@string/set_light_mode"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/silver"
+            android:padding="10dp"
+            android:text="@string/set_dark_mode"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"/>
+
+        <TextView
+            android:id="@+id/version_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="@color/start_blue"/>
+
+    </LinearLayout>
+
+</LinearLayout>
